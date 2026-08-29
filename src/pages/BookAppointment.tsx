@@ -34,7 +34,11 @@ function getDays() {
 
   if (!isSunday(today) && slotsLeftForToday) {
     days.push(today);
-  } else days.push(addDays(today, 1));
+  } else if (isSunday(addDays(today, 1))) {
+    days.push(addDays(today, 2));
+  } else {
+    days.push(addDays(today, 1));
+  }
 
   while (days.length !== 7) {
     const lastDay: Date = days[days.length - 1];
