@@ -32,7 +32,7 @@ function getDays() {
   // we skip the very next slot, so if it's 19:55 (7:55), 8:00pm slot will be skipped leaving only the 8:30pm slot, if it's more than 7:55 then after that there are no slots for today
   const slotsLeftForToday = isBefore(today, new Date().setHours(19, 55, 0, 0));
 
-  if (slotsLeftForToday) {
+  if (!isSunday(today) && slotsLeftForToday) {
     days.push(today);
   } else days.push(addDays(today, 1));
 
