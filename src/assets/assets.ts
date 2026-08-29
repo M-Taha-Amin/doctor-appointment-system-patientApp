@@ -1,0 +1,297 @@
+import appointment_img from './appointment_img.png';
+import header_img from './header_img.png';
+import group_profiles from './group_profiles.png';
+import profile_pic from './profile_pic.png';
+import contact_image from './contact_image.png';
+import about_image from './about_image.png';
+import logo from './logo.svg';
+import dropdown_icon from './dropdown_icon.svg';
+import menu_icon from './menu_icon.svg';
+import cross_icon from './cross_icon.png';
+import chats_icon from './chats_icon.svg';
+import verified_icon from './verified_icon.svg';
+import arrow_icon from './arrow_icon.svg';
+import info_icon from './info_icon.svg';
+import upload_icon from './upload_icon.png';
+import stripe_logo from './stripe_logo.png';
+import razorpay_logo from './razorpay_logo.png';
+import doc1 from './doc1.png';
+import doc2 from './doc2.png';
+import doc3 from './doc3.png';
+import doc4 from './doc4.png';
+import doc5 from './doc5.png';
+import doc6 from './doc6.png';
+import doc7 from './doc7.png';
+import doc8 from './doc8.png';
+import doc9 from './doc9.png';
+import doc10 from './doc10.png';
+import doc11 from './doc11.png';
+import doc12 from './doc12.png';
+import doc13 from './doc13.png';
+import doc14 from './doc14.png';
+import doc15 from './doc15.png';
+import Dermatologist from './Dermatologist.svg';
+import Gastroenterologist from './Gastroenterologist.svg';
+import General_physician from './General_physician.svg';
+import Gynecologist from './Gynecologist.svg';
+import Neurologist from './Neurologist.svg';
+import Pediatricians from './Pediatricians.svg';
+
+export const assets = {
+  appointment_img,
+  header_img,
+  group_profiles,
+  logo,
+  chats_icon,
+  verified_icon,
+  info_icon,
+  profile_pic,
+  arrow_icon,
+  contact_image,
+  about_image,
+  menu_icon,
+  cross_icon,
+  dropdown_icon,
+  upload_icon,
+  stripe_logo,
+  razorpay_logo,
+};
+
+export const specialityData = [
+  {
+    speciality: 'General physician',
+    image: General_physician,
+  },
+  {
+    speciality: 'Gynecologist',
+    image: Gynecologist,
+  },
+  {
+    speciality: 'Dermatologist',
+    image: Dermatologist,
+  },
+  {
+    speciality: 'Pediatricians',
+    image: Pediatricians,
+  },
+  {
+    speciality: 'Neurologist',
+    image: Neurologist,
+  },
+  {
+    speciality: 'Gastroenterologist',
+    image: Gastroenterologist,
+  },
+];
+
+export const dummyDoctors = [
+  {
+    id: 'doc1',
+    name: 'Dr. Richard James',
+    image: doc1,
+    speciality: 'General physician',
+    education_degree: 'MBBS',
+    years_of_experience: '4 Years',
+    about:
+      'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+    fee_per_appointment: 50,
+    address: '17th Cross, Richmond',
+  },
+  {
+    id: 'doc2',
+    name: 'Dr. Emily Larson',
+    image: doc2,
+    speciality: 'Gynecologist',
+    education_degree: 'MBBS',
+    years_of_experience: '3 Years',
+    about:
+      'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+    fee_per_appointment: 60,
+    address: '27th Cross, Richmond',
+  },
+  {
+    id: 'doc3',
+    name: 'Dr. Sarah Patel',
+    image: doc3,
+    speciality: 'Dermatologist',
+    education_degree: 'MBBS',
+    years_of_experience: '1 Years',
+    about:
+      'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+    fee_per_appointment: 30,
+    address: '37th Cross, Richmond',
+  },
+  {
+    id: 'doc4',
+    name: 'Dr. Christopher Lee',
+    image: doc4,
+    speciality: 'Pediatricians',
+    education_degree: 'MBBS',
+    years_of_experience: '2 Years',
+    about:
+      'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+    fee_per_appointment: 40,
+    address: '47th Cross, Richmond',
+  },
+  {
+    id: 'doc5',
+    name: 'Dr. Jennifer Garcia',
+    image: doc5,
+    speciality: 'Neurologist',
+    education_degree: 'MBBS',
+    years_of_experience: '4 Years',
+    about:
+      'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+    fee_per_appointment: 50,
+    address: '57th Cross, Richmond',
+  },
+  {
+    id: 'doc6',
+    name: 'Dr. Andrew Williams',
+    image: doc6,
+    speciality: 'Neurologist',
+    education_degree: 'MBBS',
+    years_of_experience: '4 Years',
+    about:
+      'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+    fee_per_appointment: 50,
+    address: '57th Cross, Richmond',
+  },
+  {
+    id: 'doc7',
+    name: 'Dr. Christopher Davis',
+    image: doc7,
+    speciality: 'General physician',
+    education_degree: 'MBBS',
+    years_of_experience: '4 Years',
+    about:
+      'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+    fee_per_appointment: 50,
+    address: '17th Cross, Richmond',
+  },
+  {
+    id: 'doc8',
+    name: 'Dr. Timothy White',
+    image: doc8,
+    speciality: 'Gynecologist',
+    education_degree: 'MBBS',
+    years_of_experience: '3 Years',
+    about:
+      'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+    fee_per_appointment: 60,
+    address: '27th Cross, Richmond',
+  },
+  {
+    id: 'doc9',
+    name: 'Dr. Ava Mitchell',
+    image: doc9,
+    speciality: 'Dermatologist',
+    education_degree: 'MBBS',
+    years_of_experience: '1 Years',
+    about:
+      'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+    fee_per_appointment: 30,
+    address: '37th Cross, Richmond',
+  },
+  {
+    id: 'doc10',
+    name: 'Dr. Jeffrey King',
+    image: doc10,
+    speciality: 'Pediatricians',
+    education_degree: 'MBBS',
+    years_of_experience: '2 Years',
+    about:
+      'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+    fee_per_appointment: 40,
+    address: '47th Cross, Richmond',
+  },
+  {
+    id: 'doc11',
+    name: 'Dr. Zoe Kelly',
+    image: doc11,
+    speciality: 'Neurologist',
+    education_degree: 'MBBS',
+    years_of_experience: '4 Years',
+    about:
+      'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+    fee_per_appointment: 50,
+    address: '57th Cross, Richmond',
+  },
+  {
+    id: 'doc12',
+    name: 'Dr. Patrick Harris',
+    image: doc12,
+    speciality: 'Neurologist',
+    education_degree: 'MBBS',
+    years_of_experience: '4 Years',
+    about:
+      'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+    fee_per_appointment: 50,
+    address: '57th Cross, Richmond',
+  },
+  {
+    id: 'doc13',
+    name: 'Dr. Chloe Evans',
+    image: doc13,
+    speciality: 'General physician',
+    education_degree: 'MBBS',
+    years_of_experience: '4 Years',
+    about:
+      'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+    fee_per_appointment: 50,
+    address: '17th Cross, Richmond',
+  },
+  {
+    id: 'doc14',
+    name: 'Dr. Ryan Martinez',
+    image: doc14,
+    speciality: 'Gynecologist',
+    education_degree: 'MBBS',
+    years_of_experience: '3 Years',
+    about:
+      'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+    fee_per_appointment: 60,
+    address: '27th Cross, Richmond',
+  },
+  {
+    id: 'doc15',
+    name: 'Dr. Amelia Hill',
+    image: doc15,
+    speciality: 'Dermatologist',
+    education_degree: 'MBBS',
+    years_of_experience: '1 Years',
+    about:
+      'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+    fee_per_appointment: 30,
+    address: '37th Cross, Richmond',
+  },
+];
+
+export const dummyUser = {
+  image: {
+    url: 'https://i.pinimg.com/474x/08/35/0c/08350cafa4fabb8a6a1be2d9f18f2d88.jpg',
+  },
+  name: 'test',
+  email: 'test1234@gmail.com',
+  phone_number: '03412347892',
+  address: 'Street 1234, USA',
+  gender: 'male',
+};
+
+export const dummyAppointment = {
+  doctor: {
+    id: 'doc1',
+    name: 'Dr. Richard James',
+    image: doc1,
+    speciality: { name: 'General physician' },
+    education_degree: 'MBBS',
+    years_of_experience: '4 Years',
+    about:
+      'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+    fee_per_appointment: 50,
+    address: '17th Cross, Richmond',
+  },
+  created_at: new Date(),
+  status: 'cancelled',
+  paid: false,
+};
