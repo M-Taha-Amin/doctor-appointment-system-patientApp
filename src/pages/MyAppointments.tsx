@@ -31,7 +31,7 @@ const MyAppointments = () => {
     queryKey: ['appointments', user?.id],
     queryFn: async () => {
       const res = await axiosClient<ApiResponse<Appointment[]>>(
-        `/api/appointments/patient?patient_id=${user!.id}`,
+        `${import.meta.env.VITE_SERVER_URL}/appointments/patient?patient_id=${user!.id}`,
       );
       console.log(res.data.data);
       return res.data.data;
@@ -49,7 +49,7 @@ const MyAppointments = () => {
       patientId: string;
     }) => {
       const res = await axiosClient(
-        `/api/appointments/${appointmentId}/cancel`,
+        `${import.meta.env.VITE_SERVER_URL}/appointments/${appointmentId}/cancel`,
         {
           method: 'POST',
           data: {
