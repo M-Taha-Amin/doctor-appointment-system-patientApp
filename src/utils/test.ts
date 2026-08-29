@@ -1,4 +1,4 @@
-import { format, isAfter, setHours } from 'date-fns';
+import { format, isAfter } from 'date-fns';
 
 let current = new Date();
 const eightPM = new Date().setHours(20, 0, 0, 0);
